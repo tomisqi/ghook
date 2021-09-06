@@ -11,6 +11,8 @@ def main(lines):
     print("Hook running!")
     for line in lines:
         print(line)
+    print()
+    print()
 
 if __name__ == '__main__':
     main(sys.stdin)
