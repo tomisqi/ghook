@@ -7,10 +7,12 @@ __version__ = '0.1'
 import sys
 
 
-def main():
-    print("Hello world!")    
+def main(lines):
+    print("Hook running!")
+    for line in lines:
+        print(line)
 
 if __name__ == '__main__':
-    main()
+    main(sys.stdin)
     sys.exit(0)
 
